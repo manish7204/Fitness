@@ -44,11 +44,10 @@
 
 }
 .container{
-  background-color: #61dafbaa;
   height: 713px;
   width: 360px;
   border-radius: 5px 20px 5px;
-  background: rgb(223, 207, 190);
+  background: #1E002C;
 }
 
 input{
@@ -65,5 +64,25 @@ input{
 }
 
 .Fitness-Pro{
-  font-size: 22px;
+  font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  color: #AD00FF;
+}
+
+.Allinput{
+  margin: 28px;
+  width: 309px;
+height: 475px;
+flex-shrink: 0;
+border-radius: 14px;
+opacity: 0.5;
+background: linear-gradient(180deg, #AD00FF 0%, #FF00C7 100%);
+
+}
+
+.name{
+
 }
