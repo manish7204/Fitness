@@ -11,30 +11,50 @@ function App() {
           <div className="NavBar">
             <hi className="Fitness-Pro">Fitness Pro</hi>
           </div>
-          <input type="Date" className="name" placeholder="Enter Name Here" />
-          <br />
-          <input
-            type="text"
-            className="weight"
-            placeholder="Enter Weight Here"
-          />
-          <br />
-          <input
-            type="text"
-            className="height"
-            placeholder="Enter Height Here"
-          />
-          <br />
-          <input
-            type="text"
-            className="Goal-height"
-            placeholder="Enter The Wight That You Have To Gain "
-          />
-          <br />
+          <div className="Allinput">
+            <label>
+              Full Name:
+              <input
+                type="Text"
+                className="name"
+                placeholder="Enter Name Here"
+              />
+            </label>
 
-          <button className="submitBtn" type="submit">
-            Submit
-          </button>
+            <label>
+              Height:
+              <input
+                type="Text"
+                className="Height"
+                placeholder="Enter Height Here"
+              />
+            </label>
+            <br />
+
+            <label>
+              Current Weight:
+              <input
+                type="text"
+                className="weight"
+                placeholder="Enter Weight Here"
+              />
+            </label>
+            <br />
+
+            <label>
+              Goal:
+              <input
+                type="text"
+                className="Goal"
+                placeholder="Enter Goal Here"
+              />
+            </label>
+            <br />
+
+            <button className="submitBtn" type="submit">
+              Submit
+            </button>
+          </div>
         </div>
       </div>
     </>
