@@ -1,74 +1,87 @@
-import React from "react";
 import { useState } from "react";
-import "../App.css";
-import "../home.css";
 
+export function Login() {
 
+  const[inputsVal,setInputVal]=useState({});
 
-export default function Login()  {
+  const allInputVal =() =>{
 
-    const [UserData, setUserData] = useState([]);
+  }
+  return (
+    <>
+      <div className="main">
+        <div className="container">
+          <div className="NavBar">
+            <h1 className="Fitness-Pro">Fitness Pro</h1>
+          </div>
+          <div className="Allinput">
+            <label className="label">
+              Full Name:
+              <input
+                type="Text"
+                className="name"
+                placeholder="Enter Name Here"
+              />
+            </label>
 
-    return (
-      
-      <>
-      
-      
-        <div className="main">
-          <div className="container">
-            <div className="NavBar">
-              <hi className="Fitness-Pro">Fitness Pro</hi>
+            <label className="label">
+              Height:
+              <input
+                type="Text"
+                className="Height"
+                placeholder="Enter Height Here"
+              />
+            </label>
+            <br />
+
+            <label className="label">
+              Current Weight:
+              <input
+                type="text"
+                className="weight"
+                placeholder="Enter Weight Here"
+              />
+            </label>
+            <br />
+
+            <label className="label">
+              Goal:
+              <input
+                type="text"
+                className="Goal"
+                placeholder="Enter Goal Here"
+              />
+            </label>
+            <br />
+
+            <div className="DateInput">
+
+            <label className="label">
+              Duration
+              <br></br> From:
+              <input
+                type="Date"
+                className="FromDate"
+                placeholder="Enter Goal Here"
+              />
+            </label>
+
+            <label className="label">
+              To:
+              <input
+                type="Date"
+                className="ToDate"
+                placeholder="Enter Goal Here"
+              />
+            </label>
+
             </div>
-            <div className="Allinput">
-              <label>
-                Full Name:
-                <input
-                  type="Text"
-                  className="name"
-                  placeholder="Enter Name Here"
-                />
-              </label>
-  
-              <label>
-                Height:
-                <input
-                  type="Text"
-                  className="Height"
-                  placeholder="Enter Height Here"
-                />
-              </label>
-              <br />
-  
-              <label>
-                Current Weight:
-                <input
-                  type="text"
-                  className="weight"
-                  placeholder="Enter Weight Here"
-                />
-              </label>
-              <br />
-  
-              <label>
-                Goal:
-                <input
-                  type="text"
-                  className="Goal"
-                  placeholder="Enter Goal Here"
-                />
-              </label>
-              <br />
-  
-              <button className="submitBtn" type="submit">
-                Submit
-              </button>
-            </div>
+            <button className="submitBtn" type="submit" onClick={allInputVal}>
+              Submit
+            </button>
           </div>
         </div>
-  
-  
-        
-      </>
-    );
+      </div>
+    </>
+  );
 }
-
