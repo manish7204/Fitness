@@ -1,0 +1,54 @@
+.food-container{
+    display: flex;
+    width: 336px;
+height: 60px;
+flex-shrink: 0;
+width: 336px;
+height: 60px;
+flex-shrink: 0;
+background-color:#363636;
+border-radius: 13px;
+margin:5px 0 0 0 ;
+}
+
+.food-info{
+    justify-content: space-evenly;
+    width: 245px;
+    height: 60px;
+    flex-shrink: 0; 
+    /* background-color:violet; */
+    color: rgb(255, 255, 255);
+    
+}
+.food-cals{
+    width: 60px;
+height: 40px;
+flex-shrink: 0;
+/* margin:0  0 10px 100px !important; */
+
+/* background-color:violet; */
+color: rgb(255, 255, 255);
+
+}
+
+
+.food-txt{
+    margin: 5px ;
+}
+.food-txt h3{
+    margin: 2px;
+}
+.food-txt p{
+   margin: 10px 0 0 2px;
+}
+.food-cal h2{
+    margin: 16px 0 16px 0;
+}
+#add-card{
+    cursor: pointer ;
+    margin: 16px 0 0 25px;
+}
+.fname{
+    display: flex;
+    gap: 5px;
+}

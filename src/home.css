@@ -1,10 +1,105 @@
-
- 
 .container{
-    height: 713px;
-    width: 360px;
-    /* border-radius: 5px 20px 5px; */
-    background: #1E002C;
-  }
+  height: 713px;
+  width: 360px;
+  /* border-radius: 5px 20px 5px; */
+  background: #1E002C;
+  /* padding: 20px; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
- 
+}
+
+.NavBar-1{
+  background-color: rgba(54, 54, 54, 0.80);
+  width: 360px;
+height: 80px;
+flex-shrink: 0;
+}
+.nav-items{
+  display: flex;
+}
+.profile-icon{
+  margin:20px ;
+}
+.logoo{
+  margin: 20px 0 0 50px;
+  /* padding-top: 50px; */
+  color: #AD00FF;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.today{
+  color: aliceblue;
+  margin-left: 12px;
+  font-size: 22px;
+}
+
+.calories-calculator{
+  width: 336px;
+height: 203px;
+margin: 10px 0 0 12px;
+
+flex-shrink: 0;
+border-radius: 13px;
+background: rgba(54, 54, 54, 0.80);
+}
+.indigator{
+  width: 168px;
+height: 203px;
+flex-shrink: 0;
+/* margin: 102px 0 0 0 ; */
+}
+.information{
+  width: 168px;
+height: 203px;
+flex-shrink: 0;
+}
+
+
+
+
+
+.circle-container {
+  position: relative;
+  width: 180px;
+  height: 180px;
+}
+.circle {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  /* border: 10px solid #4a4949; */
+  /* background: conic-gradient(from 0deg, #4a4949 0%, #4a4949 50%, #fff 50%, #fff 100%); */
+  /* animation: spin 2s linear ; */
+}
+
+.circole {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  border: 10px solid #f20202;
+  animation: spin 2s linear ;
+}
+
+
+@keyframes spin {  
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.allmeal{
+  margin:0 10px 0 0  !important;
+}
+
+.addIcon{
+  align-items: center;
+  display: flex;
+  margin:   550px 0 0 150px;
+  cursor: pointer;
+}

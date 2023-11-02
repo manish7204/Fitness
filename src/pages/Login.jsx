@@ -12,7 +12,11 @@ export function Login() {
       <div className="main">
         <div className="container">
           <div className="NavBar">
-            <h1 className="Fitness-Pro">Fitness Pro</h1>
+          
+          <div>
+          <h1 className="Fitness-Pro">Fitness Pro</h1>
+
+          </div>
           </div>
           <div className="Allinput">
             <label className="label">
